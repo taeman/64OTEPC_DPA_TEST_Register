@@ -1,0 +1,88 @@
+1
+00:00:00,365 --> 00:00:04,293
+1. openBrowser("")
+
+2
+00:00:04,305 --> 00:00:07,165
+5. navigateToUrl("http://eval.sbs-app.com:3001/")
+
+3
+00:00:07,166 --> 00:00:07,920
+9. click(findTestObject("Object Repository/Re01/Page_(DPA)/a_"))
+
+4
+00:00:07,921 --> 00:00:09,704
+13. setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid"), "piyachon@gmail.com")
+
+5
+00:00:09,723 --> 00:00:10,255
+17. click(findTestObject("Object Repository/Re01/Page_(DPA)/div_"))
+
+6
+00:00:10,256 --> 00:00:11,296
+21. setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__PersonID"), "3350800648279")
+
+7
+00:00:11,296 --> 00:00:11,726
+25. click(findTestObject("Object Repository/Re01/Page_(DPA)/div__1"))
+
+8
+00:00:11,727 --> 00:00:12,451
+29. click(findTestObject("Re01/Page_(DPA)/input__Telephone"))
+
+9
+00:00:12,470 --> 00:00:13,127
+33. setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__Telephone"), "0988765423")
+
+10
+00:00:13,127 --> 00:00:13,599
+37. focus(findTestObject("Re01/Page_(DPA)/div_"))
+
+11
+00:00:13,600 --> 00:00:15,627
+41. delay(2)
+
+12
+00:00:15,627 --> 00:00:15,889
+45. closeBrowser()
+
+13
+00:00:15,890 --> 00:00:18,398
+49. openBrowser("")
+
+14
+00:00:18,399 --> 00:00:20,875
+53. navigateToUrl("http://eval.sbs-app.com:3003/auth/login")
+
+15
+00:00:20,875 --> 00:00:21,645
+57. setText(findTestObject("Object Repository/UAT-RGS-01-007/Page_(DPA)/input__email"), "admin@demo.com")
+
+16
+00:00:21,645 --> 00:00:22,391
+61. setEncryptedText(findTestObject("Object Repository/UAT-RGS-01-007/Page_(DPA)/input__password"), "PblvLzUlPsM=")
+
+17
+00:00:22,391 --> 00:00:22,886
+65. click(findTestObject("Object Repository/UAT-RGS-01-007/Page_(DPA)/button_"))
+
+18
+00:00:22,886 --> 00:00:25,159
+69. click(findTestObject("Object Repository/UAT-RGS-01-007/Page_(DPA)/svg_Stockholm-icons  Communication  Group  _3bd680"))
+
+19
+00:00:25,159 --> 00:00:26,256
+73. setText(findTestObject("Object Repository/UAT-RGS-01-007/Page_(DPA)/input__searchText"), "บุญสอาด")
+
+20
+00:00:26,256 --> 00:00:27,153
+77. click(findTestObject("Object Repository/UAT-RGS-01-007/Page_(DPA)/span_Approved"))
+
+21
+00:00:27,153 --> 00:00:30,160
+81. delay(3)
+
+22
+00:00:30,161 --> 00:00:30,339
+85. closeBrowser()
+

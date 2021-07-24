@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Re01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc5432f2-8d65-438e-9748-78637deca793</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>243849af-67a5-4c33-bd0c-11ab78d356c1</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c3abb99f-fd5b-4375-abfa-86542f4e159d</id>
+      <masked>false</masked>
+      <name>Person_ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4bf36be2-1dca-481a-8d5f-c6222b0c5401</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+</TestCaseEntity>

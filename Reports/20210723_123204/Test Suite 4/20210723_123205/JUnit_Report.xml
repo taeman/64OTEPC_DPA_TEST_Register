@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 4" time="15.979" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 4" tests="1" failures="0" errors="0" time="15.979" skipped="0" timestamp="2021-07-23 12:32:24" hostname="sathianphongsukin - localhost" id="Test Suites/Test Suite 4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sathianphongsukin/Document/\u0E07\u0E32\u0E19/64OTEPC01_DPA/Test/Test_Case/Register02/Reports/20210723_123204/Test Suite 4/20210723_123205"/>
+         <property name="logFiles" value="/Users/sathianphongsukin/Document/\u0E07\u0E32\u0E19/64OTEPC01_DPA/Test/Test_Case/Register02/Reports/20210723_123204/Test Suite 4/20210723_123205/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sathianphongsukin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 92.0.4515.107"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="2d6b9b5a36b20bf09beef55603626614"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/UAT-RGS-01-004" time="15.109" classname="Test Cases/UAT-RGS-01-004" status="PASSED">
+         <system-out><![CDATA[2021-07-23 12:32:25 - [TEST_CASE][PASSED] - Test Cases/UAT-RGS-01-004: Test Cases/UAT-RGS-01-004
+
+2021-07-23 12:32:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-23 12:32:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-23 12:32:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 12:32:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-23 12:32:31 - [TEST_STEP][PASSED] - navigateToUrl("http://eval.sbs-app.com:3001/"): Navigate to 'http://eval.sbs-app.com:3001/' successfully
+
+2021-07-23 12:32:34 - [MESSAGE][PASSED] - Navigate to 'http://eval.sbs-app.com:3001/' successfully
+
+2021-07-23 12:32:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Re01/Page_(DPA)/a_")): Object: 'Object Repository/Re01/Page_(DPA)/a_' is clicked on
+
+2021-07-23 12:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Re01/Page_(DPA)/a_' is clicked on
+
+2021-07-23 12:32:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid"), "piyachon.kompang@gmail.com"): Text 'piyachon.kompang@gmail.com' is set on object 'Object Repository/Re01/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid'
+
+2021-07-23 12:32:37 - [MESSAGE][PASSED] - Text 'piyachon.kompang@gmail.com' is set on object 'Object Repository/Re01/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid'
+
+2021-07-23 12:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Re01/Page_(DPA)/div_")): Object: 'Object Repository/Re01/Page_(DPA)/div_' is clicked on
+
+2021-07-23 12:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Re01/Page_(DPA)/div_' is clicked on
+
+2021-07-23 12:32:37 - [TEST_STEP][PASSED] - focus(findTestObject("Re01/Page_(DPA)/div_")): Object: 'Object Repository/Re01/Page_(DPA)/div_' is focused
+
+2021-07-23 12:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Re01/Page_(DPA)/div_' is focused
+
+2021-07-23 12:32:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/UAT-RGS-01-004' .
+
+2021-07-23 12:32:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/UAT-RGS-01-004' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-23 12:32:24 - [TEST_SUITE][PASSED] - Test Suite 4: Test Cases/UAT-RGS-01-004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

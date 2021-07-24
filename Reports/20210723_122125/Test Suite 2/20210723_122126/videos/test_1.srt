@@ -1,0 +1,40 @@
+1
+00:00:00,702 --> 00:00:06,005
+1. openBrowser("")
+
+2
+00:00:06,017 --> 00:00:08,372
+5. navigateToUrl("http://eval.sbs-app.com:3001/")
+
+3
+00:00:08,373 --> 00:00:09,238
+9. click(findTestObject("Object Repository/Re01/Page_(DPA)/a_"))
+
+4
+00:00:09,239 --> 00:00:11,377
+13. setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid"), "piyachon@gmail.com")
+
+5
+00:00:11,378 --> 00:00:11,857
+17. click(findTestObject("Object Repository/Re01/Page_(DPA)/div_"))
+
+6
+00:00:11,858 --> 00:00:12,864
+21. setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__PersonID"), "3220600063006")
+
+7
+00:00:12,864 --> 00:00:13,398
+25. click(findTestObject("Object Repository/Re01/Page_(DPA)/div__1"))
+
+8
+00:00:13,399 --> 00:00:14,182
+29. click(findTestObject("Re01/Page_(DPA)/input__Telephone"))
+
+9
+00:00:14,183 --> 00:00:14,844
+33. setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__Telephone"), "0988765423")
+
+10
+00:00:14,844 --> 00:00:15,418
+37. focus(findTestObject("Re01/Page_(DPA)/div_"))
+

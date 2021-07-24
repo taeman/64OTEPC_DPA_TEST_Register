@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 4,Chrome 92.0.4515.107,,,2021-07-23 12:32:24,2021-07-23 12:32:40,15.496s,PASSED
+,,,,,,,
+Test Cases/UAT-RGS-01-004,Chrome 92.0.4515.107,,,2021-07-23 12:32:25,2021-07-23 12:32:40,15.109s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.107,,,2021-07-23 12:32:26,2021-07-23 12:32:31,4.984s,PASSED
+"navigateToUrl(""http://eval.sbs-app.com:3001/"")",Chrome 92.0.4515.107,,,2021-07-23 12:32:31,2021-07-23 12:32:34,3.144s,PASSED
+"click(findTestObject(""Object Repository/Re01/Page_(DPA)/a_""))",Chrome 92.0.4515.107,,,2021-07-23 12:32:34,2021-07-23 12:32:35,0.930s,PASSED
+"setText(findTestObject(""Object Repository/Re01/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid""), ""piyachon.kompang@gmail.com"")",Chrome 92.0.4515.107,,,2021-07-23 12:32:35,2021-07-23 12:32:37,1.861s,PASSED
+"click(findTestObject(""Object Repository/Re01/Page_(DPA)/div_""))",Chrome 92.0.4515.107,,,2021-07-23 12:32:37,2021-07-23 12:32:37,0.509s,PASSED
+"focus(findTestObject(""Re01/Page_(DPA)/div_""))",Chrome 92.0.4515.107,,,2021-07-23 12:32:37,2021-07-23 12:32:38,0.582s,PASSED
+Video,Chrome 92.0.4515.107,,,2021-07-23 12:32:40,2021-07-23 12:32:40,0.001s,PASSED

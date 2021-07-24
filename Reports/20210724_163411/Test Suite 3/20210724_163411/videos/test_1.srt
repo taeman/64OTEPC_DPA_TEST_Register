@@ -1,0 +1,56 @@
+1
+00:00:00,602 --> 00:00:05,396
+1. openBrowser("")
+
+2
+00:00:05,407 --> 00:00:08,712
+5. navigateToUrl("http://eval.sbs-app.com:3005/auth/login")
+
+3
+00:00:08,712 --> 00:00:09,423
+9. click(findTestObject("Object Repository/UAT-RGS-01-003/Page_(DPA)/div_"))
+
+4
+00:00:09,424 --> 00:00:10,124
+13. click(findTestObject("Object Repository/UAT-RGS-01-003/Page_(DPA)/a_"))
+
+5
+00:00:10,124 --> 00:00:11,230
+17. setText(findTestObject("Object Repository/UAT-RGS-01-003/Page_(DPA)/input_Forgotten Password_email"), "taemanster@gmail.com")
+
+6
+00:00:11,230 --> 00:00:11,802
+21. click(findTestObject("Object Repository/UAT-RGS-01-003/Page_(DPA)/button_Submit"))
+
+7
+00:00:11,828 --> 00:00:12,027
+25. closeBrowser()
+
+8
+00:00:12,027 --> 00:00:15,122
+29. openBrowser("")
+
+9
+00:00:15,123 --> 00:00:18,052
+33. navigateToUrl("http://eval.sbs-app.com:3007/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYmIyYTM5YzYtYmE5My00ZThkLWJkNzQtY2MzYWUxMjRjOWM5IiwiaWF0IjoxNjI3MTE5MTcwLCJleHAiOjE2Mjc3MjM5NzB9.cIrp7fNGyaLCJf2EBp8Lh8YbYfm2TGd-Kkb2hX-KLRU&redirect=http://eval.sbs-app.com:3005")
+
+10
+00:00:18,052 --> 00:00:20,558
+37. setEncryptedText(findTestObject("Object Repository/UAT-RGS-01-003/Page_(DPA)/input__password"), "4nvbrPglk7k=")
+
+11
+00:00:20,581 --> 00:00:21,149
+41. setEncryptedText(findTestObject("Object Repository/UAT-RGS-01-003/Page_(DPA)/input__cPassword"), "4nvbrPglk7k=")
+
+12
+00:00:21,150 --> 00:00:21,635
+45. click(findTestObject("Object Repository/UAT-RGS-01-003/Page_(DPA)/app-set-password_"))
+
+13
+00:00:21,636 --> 00:00:23,682
+49. delay(2)
+
+14
+00:00:23,683 --> 00:00:23,841
+53. closeBrowser()
+

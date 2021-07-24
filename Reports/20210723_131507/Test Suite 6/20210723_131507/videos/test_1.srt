@@ -1,0 +1,60 @@
+1
+00:00:00,683 --> 00:00:06,391
+1. openBrowser("")
+
+2
+00:00:06,403 --> 00:00:08,689
+5. navigateToUrl("http://eval.sbs-app.com:3005/auth/login")
+
+3
+00:00:08,689 --> 00:00:10,113
+9. setText(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/input__email"), "piyachon.kompang@gmail.com")
+
+4
+00:00:10,114 --> 00:00:10,680
+13. setEncryptedText(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/input__password"), "4wKTkCwZKEE=")
+
+5
+00:00:10,680 --> 00:00:11,309
+17. focus(findTestObject("UAT-RGS-01-006/Page_(DPA)/button_"))
+
+6
+00:00:11,310 --> 00:00:11,936
+21. click(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/button_"))
+
+7
+00:00:11,937 --> 00:00:13,991
+25. focus(findTestObject("UAT-RGS-01-006/Page_(DPA)/button__1"))
+
+8
+00:00:13,992 --> 00:00:14,498
+29. click(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/button__1"))
+
+9
+00:00:14,499 --> 00:00:15,041
+33. click(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/span"))
+
+10
+00:00:15,041 --> 00:00:16,011
+37. setText(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/input__searchText"), "นิวั")
+
+11
+00:00:16,011 --> 00:00:16,809
+41. focus(findTestObject("UAT-RGS-01-006/Page_(DPA)/button__1_2"))
+
+12
+00:00:16,809 --> 00:00:17,278
+45. click(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/button__1_2"))
+
+13
+00:00:17,279 --> 00:00:17,787
+49. focus(findTestObject("UAT-RGS-01-006/Page_(DPA)/button__1_2_3"))
+
+14
+00:00:17,787 --> 00:00:18,154
+53. click(findTestObject("Object Repository/UAT-RGS-01-006/Page_(DPA)/button__1_2_3"))
+
+15
+00:00:18,154 --> 00:00:18,393
+57. closeBrowser()
+

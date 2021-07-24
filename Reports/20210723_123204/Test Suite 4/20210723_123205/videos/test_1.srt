@@ -1,0 +1,24 @@
+1
+00:00:00,508 --> 00:00:05,485
+1. openBrowser("")
+
+2
+00:00:05,495 --> 00:00:08,638
+5. navigateToUrl("http://eval.sbs-app.com:3001/")
+
+3
+00:00:08,639 --> 00:00:09,569
+9. click(findTestObject("Object Repository/Re01/Page_(DPA)/a_"))
+
+4
+00:00:09,570 --> 00:00:11,403
+13. setText(findTestObject("Object Repository/Re01/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid"), "piyachon.kompang@gmail.com")
+
+5
+00:00:11,431 --> 00:00:11,915
+17. click(findTestObject("Object Repository/Re01/Page_(DPA)/div_"))
+
+6
+00:00:11,940 --> 00:00:12,547
+21. focus(findTestObject("Re01/Page_(DPA)/div_"))
+

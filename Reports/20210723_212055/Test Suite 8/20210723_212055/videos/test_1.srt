@@ -1,0 +1,92 @@
+1
+00:00:00,317 --> 00:00:03,930
+1. openBrowser("")
+
+2
+00:00:03,944 --> 00:00:07,486
+5. navigateToUrl("http://eval.sbs-app.com:3001/")
+
+3
+00:00:07,487 --> 00:00:08,298
+9. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/a_"))
+
+4
+00:00:08,299 --> 00:00:09,515
+13. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/input__form-control ng-untouched ng-pristin_178ccb"))
+
+5
+00:00:09,515 --> 00:00:10,398
+17. setText(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/input__form-control ng-untouched ng-dirty ng-valid"), "sathianphong@gmail.com")
+
+6
+00:00:10,398 --> 00:00:10,934
+21. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/div_"))
+
+7
+00:00:10,935 --> 00:00:11,871
+25. setText(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/input__PersonID"), "3540200133012")
+
+8
+00:00:11,871 --> 00:00:12,206
+29. click(findTestObject("UAT-RGS-01-008/Page_(DPA)/input__form-control ng-untouched ng-pristin_cc1b82_1"))
+
+9
+00:00:12,206 --> 00:00:12,814
+33. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/ngb-highlight_"))
+
+10
+00:00:12,814 --> 00:00:13,684
+37. setText(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/input__FirstName"), "มงคล")
+
+11
+00:00:13,685 --> 00:00:14,476
+41. setText(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/input__length"), "งามดี")
+
+12
+00:00:14,477 --> 00:00:15,179
+45. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/button__my-btn btn btn-secondary"))
+
+13
+00:00:15,179 --> 00:00:15,823
+49. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/span_2564"))
+
+14
+00:00:15,823 --> 00:00:16,441
+53. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/div_2520"))
+
+15
+00:00:16,442 --> 00:00:17,174
+57. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/div__1"))
+
+16
+00:00:17,175 --> 00:00:17,789
+61. click(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/div_12"))
+
+17
+00:00:17,790 --> 00:00:18,883
+65. click(findTestObject("UAT-RGS-01-008/Page_(DPA)/input__form-control ng-untouched ng-pristin_cc1b82_position"))
+
+18
+00:00:18,883 --> 00:00:19,400
+69. click(findTestObject("UAT-RGS-01-008/Page_(DPA)/button_"))
+
+19
+00:00:19,400 --> 00:00:20,469
+73. setText(findTestObject("Object Repository/UAT-RGS-01-008/Page_(DPA)/input__Telephone"), "0903276488")
+
+20
+00:00:20,470 --> 00:00:21,190
+77. click(findTestObject("UAT-RGS-01-008/Page_(DPA)/input__form-control ng-untouched ng-pristin_cc1b82_department"))
+
+21
+00:00:21,191 --> 00:00:22,158
+81. setText(findTestObject("UAT-RGS-01-008/Page_(DPA)/input__form-control ng-untouched ng-pristin_cc1b82_department"), "นนทบุรี")
+
+22
+00:00:22,158 --> 00:00:23,183
+85. click(findTestObject("UAT-RGS-01-008/Page_(DPA)/button__1"))
+
+23
+00:00:23,183 --> 00:00:23,347
+89. closeBrowser()
+
